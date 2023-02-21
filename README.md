@@ -385,7 +385,7 @@ Example request body:
 ## **Delete Post**
 
 ```http
-  GET /api/v1/posts/dislikes/:id
+  delete /api/v1/posts/:id
 ```
 
 | Parameter        | Type     | Description    | Required |
