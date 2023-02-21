@@ -39,7 +39,7 @@ __Server:__ Node, Express, MongoDB, Mongoose, JWT , bcrypt ,cloudinary
   - [Get all users](#Get-all-users)
   - [View a user profile Count](#view-a-user-profile)
   - [Following a user](#Following-a-user)
-  - [UnFollowing-a-user](#UnFollowing-a-user)
+  - [UnFollowing a user](#UnFollowing-a-user)
   - [Update user password](#Update-user-password)
   - [Update your profile](#Update-your-profile)
   - [Block another user](#Block-user)
