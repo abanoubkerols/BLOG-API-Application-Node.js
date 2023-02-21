@@ -277,7 +277,7 @@ PUT /api/v1/users/admin-unblock/:id
 ## **Upload Profile Photo**
 
 ```http
-  DELETE /api/v1/users/profile-photo-upload
+  post /api/v1/users/profile-photo-upload
 ```
 
 | Parameter        | Type     | Description     | Required |
