@@ -1,7 +1,7 @@
 # BLOG-API-Application-Node.js
 BLOG API Application Project With Node.js
 
-__Server:__ Node, Express, MongoDB, Mongoose, JWT , bcrypt
+__Server:__ Node, Express, MongoDB, Mongoose, JWT , bcrypt ,cloudinary
 
 # API FEATURES
 
