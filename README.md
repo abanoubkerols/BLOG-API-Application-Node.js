@@ -63,3 +63,46 @@ __Server:__ Node, Express, MongoDB, Mongoose, JWT , bcrypt
   - [Create comment](#Create-Comment)
   - [Update post](#Update-Comment)
   - [Delete post](#Delete-Comment)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd your-project-name
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+# API Authentication
+
+Some endpoints may require authentication for example. To create a create/delete/update post, you need to register your API client and obtain an access token.
+
+The endpoints that require authentication expect a bearer token sent in the `Authorization header`.
+
+__Example__:
+
+`Authorization: Bearer YOUR TOKEN`
+
+## Register a new API client
+
+```http
+POST /api/v1/users/signup
+```
